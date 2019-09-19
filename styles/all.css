@@ -1,0 +1,279 @@
+body {
+  color: black;
+  margin: 0px 35px 20px 35px;
+  background: white;
+  font-family: sans-serif;
+  letter-spacing: .2em;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  position: fixed;
+  background: white;
+  width: auto;
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#title {
+  text-align: left;
+  width: 65vw;
+  font-size: 6em;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-right: 30px;
+
+}
+
+#login {
+  width: 30vw;
+  flex-grow: 2;
+}
+
+#login input{
+  background-color: white;
+}
+
+#logout {
+  text-align: right;
+  padding-right: 20px;
+  font-size: .8em;
+  margin-right: 30px;
+}
+
+#logout h2 {
+  color: lightslategray;
+}
+
+#logout h2 span{
+  color: black;
+}
+
+#logout a {
+  text-decoration: none;
+  border: 1px rgb(48, 56, 75) solid;
+  border-radius: .3em;
+  padding: 3px;
+  background-color: rgb(48, 56, 75);
+  color: white;
+}
+
+#logout a:hover{
+  color: lime;
+}
+
+form div {
+  display: block;
+}
+
+form {
+  font-size: 1.2em;
+}
+
+main {
+  display: flex;
+  flex-flow: row;
+}
+
+#sidebar {
+  margin-top: 10em;
+  flex-grow: 1;
+  position: fixed;
+  overflow-y: auto;
+  background-color: rgb(48, 56, 75);
+  padding: 0% 1%;
+  height: 80%;
+  width: 25%;
+  border-radius: .2em;
+  overflow-y: scroll;
+
+}
+
+.upload {
+  margin-top: 1.4em;
+}
+
+#sidebar form {
+  border: #00ff22 1px solid;
+  margin: 11px 0px 11px 0px;
+  padding: 16px;
+  height: auto;
+  color: white;
+}
+
+#sidebar form h2 {
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 1.4em;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+input {
+  font-size: .8em;
+  width: 50%;
+  background-color: lightgrey;
+  margin-top: 10px;
+}
+
+select {
+  font-size: .8em;
+  margin-top: 10px;
+}
+
+form label {
+  padding-bottom: 1.2em;
+  font-size: 1em;
+}
+
+#search_form label {
+  font-size: 1.3em;
+}
+
+#delete_form label {
+  font-size: 1.3em;
+}
+
+button {
+  font-size: .9em;
+  font-weight: bold;
+  padding: 0px 4px;
+  border: 1px solid white;
+  border-radius: .3em;
+}
+
+button:hover {
+  border-color: rgb(0, 0, 0);
+  background-color: lightgrey;
+  cursor: pointer;
+  color: lime;
+  border-radius: .3em;
+}
+
+#image_container {
+  margin-left: auto;
+  text-align: right;
+  overflow-y: auto;
+  padding-top: 180px;
+  width: 75%;
+}
+
+#image_container ul{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+#image_container ul li{
+  width: 20vw;
+  margin: 10px;
+  list-style-type: none;
+}
+
+
+#image_container li img{
+  width: 80%;
+  height: auto;
+}
+
+#image_container li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+article {
+  display: flex;
+  flex-flow: column;
+}
+
+main {
+  margin-left: 30px;
+}
+
+#tags {
+  color: lightslategray;
+  font-size: 1.2em;
+  text-align: center;
+  width: 80%;
+  padding: 2em;
+  margin: auto;
+}
+
+#tags p {
+  font-weight: bold;
+}
+
+
+#single_image {
+  text-align: center;
+}
+
+#single_image h2 {
+  margin-top: 5%;
+}
+
+#single_image img {
+  height: 50vh;
+}
+
+#delete_container {
+  border: hsl(128, 100%, 50%) 1px solid;
+  padding: 10px;
+}
+
+
+#delete_container form {
+  border: none;
+  margin: 0px;
+  padding: 6px 0px 8px 8px;
+  color: hsl(128, 100%, 50%);
+}
+
+#delete_form_tag div {
+  padding-top: 10px;
+  color: lime;
+}
+
+#delete_else {
+  color: lime;
+}
+
+form #delete_form_img {
+  margin-bottom: 10px;
+}
+
+#delete_container button:hover {
+  color: red;
+}
+
+.not_loggedin_message {
+  margin-top: 15px;
+  color: white;
+}
+
+#back_button {
+  text-align: left;
+  background-color:rgb(48, 56, 75);
+  position: fixed;
+  color: white;
+  border-radius: .2em;
+  width: auto;
+  margin-left: 7%;
+  margin-top: 0;
+  display: block;
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 5px;
+
+}
+
+div #back_button:hover {
+  color: lime;
+}
